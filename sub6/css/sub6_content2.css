@@ -1,0 +1,97 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+#content .slogan {
+  text-align: center;
+}
+
+.mailCon input {
+  width: 912px;
+}
+
+.contact {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1050px;
+  padding-bottom:100px;
+}
+
+.contact .nameCon {
+  /* display: inline-block; */
+  float: left;
+}
+
+.contact dl {
+  overflow: hidden;
+  font-size: 1.25em;
+}
+
+.contact dt {
+  float: left;
+  margin-right:15px;
+  font-weight: 700;
+  padding: 10px;
+  color:#333;
+}
+
+.contact dd {
+  float: left;
+}
+
+input {
+  width:400px;
+  background: #f8f8f8;
+  border:none;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  /* box-shadow: inset 1px 1px 8px 3px rgb(0 0 0 / 3%); */
+}
+
+input:focus {
+  outline:none;
+}
+
+.contact .numberCon dt {
+  margin-left:10px;
+}
+
+.contentCon textarea {
+  width: 980px;
+  background: #f8f8f8;
+  border:none;
+  margin-left:15px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  resize: none;
+}
+
+.contentCon dt {
+  margin-bottom:10px;
+}
+
+.contentCon textarea:focus {
+  outline:none;
+}
+
+.finish {
+  /* width:1200px; */
+  text-align: center;
+}
+
+.finish button {
+  /* appearance: none; */
+  border:none;
+  padding:15px 30px;
+  font-size: 1.25em;
+  color:#fff;
+  background: #d70c19;
+  border-radius: 20px;
+  cursor: pointer;
+} 

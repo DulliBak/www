@@ -1,0 +1,80 @@
+<? session_start(); ?>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>고객센터-오시는길</title>
+    <link rel="stylesheet" href="../sub6/css/sub6_content4.css" />
+    <link rel="stylesheet" href="../common/css/common.css" />
+    <link rel="stylesheet" href="../sub6/common/css/sub6common.css" />
+
+    <script
+      src="https://kit.fontawesome.com/7225d34e82.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://skyfaery.cafe24.com/common/js/prefixfree.min.js"></script>
+  </head>
+
+  <body>
+    <? include "../common/sub_header.html" ?>
+    <div class="main">
+      <img src="./common/images/visual.jpg" alt="고객센터 이미지" />
+      <h3>고객센터</h3>
+    </div>
+
+    <div class="subNav">
+      <ul>
+        <li><a href="../sub6/sub6_1.html">공지사항</a></li>
+        <li><a href="../sub6/sub6_2.html">고객의 소리</a></li>
+        <li><a href="../sub6/sub6_3.html">FAQ</a></li>
+        <li><a class="current" href="../sub6/sub6_4.html">오시는 길</a></li>
+      </ul>
+    </div>
+
+    <article id="content">
+      <div class="titleArea">
+        <div class="lineMap">
+          <i class="fa-solid fa-house"></i
+          ><span class="hidden">홈</span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
+          <span>고객센터&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>
+          <strong>오시는길</strong>
+        </div>
+        <h2 class="numb">오시는길</h2>
+      </div>
+
+      <div class="contentArea">
+        <!-- 본문 컨텐츠 내용 -->
+        <div class="intro">
+          <div class="slogan">
+            <span></span>
+            <p></p>
+          </div>
+
+          <div id="mapwrap">
+            <div id="map">
+
+            </div>
+          </div>
+          
+          <div class="address">
+            <dl>
+              <dt class="numb">(주)오리온 본사</dt>
+                <dd>
+                  <ul class="numb">
+                    <li><strong>주소</strong><span>서울특별시 용산구 백범로 90다길 13(문배동 30-10)</span></li>
+                    <li><strong>전화</strong><span>02-710-6000</span></li>
+                    <li><strong>팩스</strong><span>02-718-4825</span></li>
+                  </ul>
+                </dd>
+            </dl>
+          </div>
+          
+      </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=158d463dcdb05ce6efc4932fb8c2bdee"></script>
+    <script src="./js/sub6_4.js"></script>
+  </body>
+</html>

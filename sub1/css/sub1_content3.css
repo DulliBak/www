@@ -1,0 +1,146 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contentArea .history .slogan {
+  text-align: center;
+}
+
+.history .histab_menu {
+  overflow: hidden;
+  width: 770px;
+  margin: 0 auto;
+  transition: all .3s;
+}
+
+.history .tabs {
+  margin-bottom: 150px;
+  transition: all .3s;
+}
+
+.history .histab_menu li {
+  float: left;
+  background: #f8f8f8;
+  border-radius: 30px;
+  font-size: 1.25em;
+  margin-right: 6%;
+  transition: all .3s;
+}
+
+.history .histab_menu li:last-child {
+  margin-right: 0;
+}
+
+.histab_menu a {
+  display: block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  transition: all .3s;
+  color: #999;
+}
+
+.historyMain {
+  position: relative;
+  overflow: hidden;
+}
+
+.historyMain img {
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+
+.historyMain li {
+  position:absolute;
+  top: 0;
+  left: 320px;
+  width: 400px;
+  transition: all .5s;
+  opacity: 0;
+}
+
+.historyMain span {
+  display: block;
+  color: #d70c19;
+  font-weight: 400;
+  font-size: 1.87em;
+  margin-right: 20px;
+}
+
+.historyMain strong {
+  display: block;
+  text-align: left;
+  font-size: 2.18em;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.historyMain p {
+  margin: 30px 0 30px 0;
+  line-height: 2em;
+  text-align: justify;
+  width: 400px;
+}
+
+#year1 {
+  position: relative;
+  overflow: hidden;
+  margin: 100px 0 150px 0;
+}
+
+#year1 dl {
+  overflow: hidden;
+  width: 1200px;
+  margin-bottom: 100px;
+}
+
+#year1 dt {
+  float: left;
+  font-size: 2.18em;
+  width: 600px;
+  font-weight: 700;
+  text-align: right;
+  margin-top: -5px;
+}
+
+#year1 dd {
+  float: right;
+  width: 500px;
+}
+
+#year1 dd > img {
+  width: 400px;
+  height: 280px;
+  margin-bottom: 30px;
+  border-radius: 50px 0 0 0;
+}
+
+#year1 span {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: -30px;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+#year1 p {
+  margin-bottom: 20px;
+  margin-top: -2px;
+  font-size: 1.3em;
+}
+
+.histab_menu li a.now {
+  background: #d70c19;
+  color: #fff;
+}
+
+.history .navOn{
+  position: fixed; 
+  width: 800px;
+  z-index: 300; left:630px; top:0;}
+
+.history .navOn2 {
+  position: fixed; left: 320px; top: 100px;
+  opacity: 1;
+}

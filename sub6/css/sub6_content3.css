@@ -1,0 +1,98 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contentArea .intro {
+  position: relative;
+  text-align: center;
+}
+
+.qna {
+  margin-bottom:200px;
+}
+
+.qna .q {
+  width: 1200px;
+  height: 100px;
+  border-radius: 40px;
+  background: #f8f8f8;
+  margin-bottom: 30px;
+  box-shadow: 0px 7px 13px 0px rgb(100 100 111 / 20%);
+}
+
+.qna .q strong {
+  font-size: 2.5em;
+  color: #d70c19;
+  margin-right: 40px;
+}
+
+.qna .q span{
+  font-size: 1.56em;
+  font-weight: 600;
+}
+
+.qna .q a {
+  display:block;
+  padding: 25px 30px 30px 70px;
+}
+
+.qna p {
+  font-size: 1.125em;
+  text-align: justify;
+  padding: 0 30px 40px 160px;
+  line-height: 2em;
+  /* transition: all .3s; */
+  display:none;
+}
+
+.plus {
+  position: relative;
+  display:inline-block;
+  /* margin-left:450px; */
+  margin-bottom:10px;
+  width: 32px;
+  height: 5px;
+  border-radius: 50px;
+  background: #d70c19;
+}
+
+.plus::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -13px;
+  right: 13px;
+  height: 32px;
+  width: 5px;
+  border-radius: 50px;
+  background: #d70c19;
+  transform: rotate(0); 
+}
+
+
+.qna .plus.rotate {
+  transform: rotate(45deg);
+  top: 0;
+  transition: all .3s;
+}
+
+.close {
+  background: #d70c19;
+  color: #fff;
+  border-radius: 40px;
+}
+
+.all {
+  display: block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  transition: all .3s;
+  font-size: 1.25em;
+  width:50px;
+}
+
+.tab_menu a.now {
+  background: #d70c19;
+  color: #fff;}

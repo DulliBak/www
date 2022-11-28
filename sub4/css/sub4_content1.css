@@ -1,0 +1,245 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.visual {
+  width:2000px;
+  height:400px;
+  margin-left:-400px;
+  background: url(../images/content1/visual.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  margin-bottom:150px;
+}
+
+.visual p {
+  padding-top:180px;
+  color:#fff;
+  font-size: 3.5em;
+  font-weight: 200;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ethics .tab_menu {
+  overflow: hidden;
+  margin-bottom: 150px;
+  margin-left: 35%;
+}
+
+.ethics .tab_menu li{
+  float: left;
+  background: #f8f8f8;
+  border-radius: 30px;
+  font-size: 1.25em;
+  margin-right: 20px;
+  transition: all .3s;
+}
+
+.ethics .tab_menu a {
+  display: block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  transition: all .3s;
+  color: #999;
+}
+
+.contlist ul {
+  display: none;
+}
+
+.ethics #group {
+  width: 2000px;
+}
+
+.ethics #group li {
+  width: 1200px;
+  margin-bottom: 130px;
+  height: 350px;
+  position: relative;
+}
+
+.ethics #group p {
+  font-size: 2em;
+  margin-bottom: 80px;
+}
+
+.ethics #group img { 
+  border-radius: 50px;
+  transition: all ease-out .5s;
+  transform: scale(1);
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+}
+
+.ethics #group dl {
+  float:right;
+  text-align: left;
+  margin-right: 100px;
+}
+
+#group li>div {
+  float:left;
+  width:550px;
+  height:350px;
+  overflow:hidden;
+  border-radius: 50px;
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.3);
+}
+
+.ethics #group li:hover img {
+  transform: scale(1.1);
+}
+
+.ethics #group .bg {
+  width: 2000px;
+  height: 480px;
+  position: absolute;
+  top:-65px;
+  left:-400px;
+  background: #f8f8f8;
+  border-radius: 0;
+  z-index: -100;
+  box-shadow: none;
+}
+
+.ethics #group dt {
+  font-size: 1.875em;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.ethics #group dd {
+  font-size:1.25em;
+  line-height:2em
+}
+
+.ethics #group li:nth-of-type(2) dl {
+  float: left;
+  width: 500px;
+  text-align: right;
+  margin-left: 50px;
+}
+
+.ethics #group li:nth-of-type(1) {
+  clear:both;
+}
+
+.ethics #group li:nth-of-type(2) div {
+  float:right;
+}
+
+.ethics #group li:nth-of-type(4) dl {
+  float:left;
+  width:500px;
+  text-align: right;
+  margin-left:50px;
+}
+
+.ethics #group li:nth-of-type(4) div {
+  float:right;
+}
+
+.ethics #group li:last-child {
+  margin-bottom:200px;
+}
+
+#member li {
+  position: relative;
+  text-align: left;
+  padding: 30px 0 30px 0;
+  transition: all ease-out .5s;
+}
+
+#member li::before {
+  content:'';
+  display:block;
+  float:left;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  margin-left:30px;
+  margin-right:50px;
+  transition: all .5s;
+}
+
+#member li:hover::before {
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.3);
+}
+
+#member li:first-child::before
+{
+  background: url(../images/content1/member1.png) center no-repeat;
+  background-size: 70%;
+}
+
+#member li:nth-of-type(2)::before
+{
+  background: url(../images/content1/member2.png) center no-repeat;
+}
+
+#member li:nth-of-type(3)::before
+{
+  background: url(../images/content1/member3.png) center no-repeat;
+}
+
+#member li:nth-of-type(4)::before
+{
+  background: url(../images/content1/member4.png) center no-repeat;
+}
+
+#member li:nth-of-type(5)::before
+{
+  background: url(../images/content1/member5.png) center no-repeat;
+}
+
+#member li:nth-of-type(6)::before
+{
+  background: url(../images/content1/member6.png) center no-repeat;
+}
+
+#member li:last-child::before
+{
+  background: url(../images/content1/member7.png) center no-repeat;
+}
+
+#member li::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#member li:last-child {
+  margin-bottom:200px;
+}
+
+#member p {
+  font-size: 1.87em;
+  font-weight: 700;
+  margin: 40px 0 20px 0;
+}
+
+#member span {
+  font-size:1.25em;
+}
+
+#member .bg {
+  width: 2000px;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:-400px;
+  background: #f8f8f8;
+  border-radius: 0;
+  z-index: -100;
+  box-shadow: none;
+}
+
+.ethics .tab_menu a.now {
+  background: #d70c19;
+  color: #fff;
+}
+
+

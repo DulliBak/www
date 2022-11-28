@@ -1,0 +1,129 @@
+<? session_start(); 
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+error_reporting(E_ALL);
+
+?>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>고객센터-고객의 소리</title>
+    <link rel="stylesheet" href="../sub6/css/sub6_content2.css" />
+    <link rel="stylesheet" href="../common/css/common.css" />
+    <link rel="stylesheet" href="../sub6/common/css/sub6common.css" />
+
+    <script
+      src="https://kit.fontawesome.com/7225d34e82.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://skyfaery.cafe24.com/common/js/prefixfree.min.js"></script>
+  </head>
+
+  <body>
+    <? include "../common/sub_header.html" ?>
+    <div class="main">
+      <img src="./common/images/visual.jpg" alt="고객센터 이미지" />
+      <h3>고객센터</h3>
+    </div>
+
+    <div class="subNav">
+      <ul>
+        <li><a href="../sub6/sub6_1.html">공지사항</a></li>
+        <li><a class="current" href="../sub6/sub6_2.html">고객의 소리</a></li>
+        <li><a href="../sub6/sub6_3.html">FAQ</a></li>
+        <li><a href="../sub6/sub6_4.html">오시는 길</a></li>
+      </ul>
+    </div>
+
+    <article id="content">
+      <div class="titleArea">
+        <div class="lineMap">
+          <i class="fa-solid fa-house"></i
+          ><span class="hidden">홈</span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
+          <span>고객센터&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>
+          <strong>고객의 소리</strong>
+        </div>
+        <h2>고객의 소리</h2>
+      </div>
+
+      <div class="contentArea">
+        <!-- 본문 컨텐츠 내용 -->
+        <div class="intro">
+          <div class="slogan">
+            <span
+              >소비자님의 의견을 들려주세요.</span
+            >
+            <p>오리온이 올바른 방향으로 나아가고 있는지 돌아볼 수 있는 기회로 삼고, 적극적으로 반영하겠습니다.</p>
+          </div>
+
+          <h3 class="hidden">문의하기</h3>
+
+          <div class="contact">
+            <form action="./mail.php" method="post">
+            
+              <div class="nameCon">
+
+                <dl>
+                  <dt>
+                    <label for="name">이름</label>
+                  </dt>
+                  <dd>
+                    <input type="text" id="name" name="name" placeholder="" required>
+                  </dd>
+                </dl>
+
+              </div>
+
+                <div class="numberCon">
+
+                  <dl>
+                    <dt>
+                    <label for="number">연락처</label>
+                    </dt>
+                    <dd>
+                      <input type="text" id="number" name="number" placeholder="" required>
+                    </dd>
+                  </dl>
+
+                </div>
+
+                <div class="mailCon">
+
+                  <dl>
+                    <dt>
+                    <label for="mail">이메일</label>
+                    </dt>
+                    <dd>
+                      <input type="text" id="mail" name="mail" placeholder="" required>
+                    </dd>
+                  </dl>
+
+                </div>
+
+                <div class="contentCon">
+
+                  <dl>
+                    <dt>
+                      <label for="content">문의내용</label>
+                    </dt>
+                    <dd>
+                      <textarea rows="10" data-validation-required-message="" id="message" name="message" placeholder="" required aria-invalid="false"></textarea>
+                    </dd>
+                  </dl>
+
+                </div>
+
+              <div class="finish">
+                <button type="submit">문의하기</a>
+              </div>
+              
+            </form>
+          
+      </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+  </body>
+</html>

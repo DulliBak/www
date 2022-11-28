@@ -1,0 +1,173 @@
+#content {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+#content .titleArea h2 {
+  padding: 240px 0 60px 0;
+}
+
+#content .titleArea h2::before {
+  left: 490px;
+}
+
+.contentArea .intro {
+  position: relative;
+  text-align: center;
+}
+
+
+#list_search {
+  padding: 20px;
+  overflow: hidden;
+}
+
+#list_search select {
+  padding: 9.5px 5px;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+
+#list_search div {
+  float:left;
+  margin-right:8px;
+}
+
+#list_search  #list_search1 {
+  margin-right: 440px;
+  margin-top:10px;
+}
+
+#list_search4 input {
+  padding:10px 5px;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+
+#list_search5 button {
+  padding:10px 18px;
+  appearance: none;
+  border-radius: 12px;
+  border: none;
+  background: #d70c19;
+  color:#fff;
+  margin-top:-1px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.list_count {
+  position:absolute;
+  top: 23px;
+  left: 230px;
+}
+
+.list_count #scale {
+  padding: 9.5px 5px;
+  border-radius: 12px;
+  margin-top:-2px;
+  cursor: pointer;
+}
+
+#list_item {
+  overflow: hidden;
+  width:1000px;
+  margin:0 auto;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+#list_item .wrap {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#list_top_title {
+  overflow:hidden;
+  width: 1000px;
+  margin: 0 auto;
+  border-top: 2px solid #d70c19;
+}
+
+#list_item {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#list_item .wrap {
+  float: left;
+  border-radius: 20px;
+}
+
+#list_item img {
+  scale: 1;
+  transition: all .3s;
+}
+
+#list_item .wrap2 {
+  float: left;
+  padding: 20px 30px;
+  text-align: left;
+  width: 600px;
+}
+
+#list_item .wrap2 #list_item2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#list_item:hover img {
+  scale: 1.05;
+}
+
+#list_item .wrap3 {
+  margin-top: 15px;
+  
+}
+
+#list_item .wrap3 div {
+  float: left;
+  margin-right: 10px;
+  color: #666;
+}
+
+#list_item6 {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#page_button {
+  margin-top: 40px;
+}
+
+div#button {
+  position: absolute;
+  right: 25px;
+  bottom: 0;
+}
+
+div#button a {
+  padding:10px 18px;
+  appearance: none;
+  border-radius: 12px;
+  border: none;
+  background: #d70c19;
+  color:#fff;
+  margin-top:-1px;
+  cursor: pointer;
+}
+
+
+

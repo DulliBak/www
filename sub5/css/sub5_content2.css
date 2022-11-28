@@ -1,0 +1,181 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* .cf {
+  overflow: hidden;
+} */
+
+.cfInner {
+  position: relative;
+  width: 1200px;
+  height: 330px;
+  margin: 0 auto;
+}
+
+.slide_gallery {
+  position:relative;
+  width: 4000px;
+  height: 300px;
+  margin: 0 auto;
+  margin-left: 10px;
+  padding-top: 40px;
+}
+
+.slide_gallery ul {float:left}
+
+#slide_gallery_box {
+  margin: 0 auto;
+  width: 1000px;
+  overflow: hidden;
+}
+
+.cf .cfInner li {
+  float:left;
+  width:320px;
+  margin-right: 20px;
+  transition: all 0.5s;
+ 
+  overflow: hidden;
+}
+
+.cf .maincf {
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.cf .maincf .imgbox {
+  float:left;
+  width: 700px;
+  height: 450px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-left: 4%;
+}
+
+.cf .maincf .imgbox img {transition: all .5s;}
+
+.cf .maincf:hover img {
+  transform: scale(1.05);
+}
+
+.cf .maincf .cfwrap {
+  float:left;
+  width: 400px;
+  text-align: justify;
+  line-height: 1.8em;
+  margin-left: 50px;
+  margin-top: 15%;
+  overflow: hidden;
+}
+
+.cf .maincf .cfwrap strong
+{font-size:1.125em;
+color:#d70c19;}
+
+.cf .maincf .cfwrap .p1
+{
+  font-weight: 700;
+  font-size: 1.87em;
+  margin: 5px 0 20px 0;
+}
+
+.cf .maincf .cfwrap .p2 {
+  font-size: 1.25em;
+}
+
+.cf .maincf .cfwrap span {
+  color:#999;
+}
+
+.cf .cfInner {
+  width:1100px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+ 
+}
+
+.cf .cfInner .imgbox {
+  width: 300px;
+  height: 150px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.bg {
+  position:absolute;
+  bottom: 0;
+  left: -400px;
+  background: #f8f8f8;
+  width: 2000px;
+  height: 400px;
+  z-index: -100;
+}
+
+.cf .cfwrap strong {
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.25em;
+  overflow: hidden;
+  width: 260px;
+}
+
+
+.cf .cfInner .cfwrap {
+  width: 270px;
+  text-align: justify;
+  margin: 20px 15px;
+  overflow: hidden;
+} 
+
+.cf .cfInner li img {transition: all .5s;}
+
+.cf .cfInner li:hover img {
+  transform: scale(1.05);
+}
+
+.cf .cfInner .cfwrap p {
+  overflow: hidden;
+  line-height: 1.5em;
+  font-size: 1em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.cf .cfbutton a {
+  font-size: 35px;
+  color: #d70c19;
+}
+
+.cf .cfbutton a:nth-of-type(1) i {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  transition: ease-out 0.3s;
+  font-size: 1.25em;
+  transform: translateX(0);
+}
+
+.cf .cfbutton a:nth-of-type(1) i:hover {
+  transform: translateX(-5px);
+}
+
+.cf .cfbutton a:nth-of-type(2) i {
+  position: absolute;
+  top: 130px;
+  right: 0;
+  font-size: 1.25em;
+  transition: ease-out 0.3s;
+  transform: translateX(0);
+}
+
+.cf .cfbutton a:nth-of-type(2) i:hover {
+  transform: translateX(5px);
+}

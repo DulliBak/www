@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+  
+html {
+  scroll-behavior: smooth;
+}
+
+.main_visual .carousel-caption {
+  left: 10%;
+  top: 20%;
+  text-align: left;
+  text-shadow: none;
+}
+
+.main_visual .carousel-caption p {
+  font-size: 1.25em;
+  animation: caption 1s;
+}
+
+.main_visual .carousel-caption strong {
+  font-size: 4em;
+  animation: caption 2s;
+}
+
+@keyframes caption {
+  0%{
+    opacity: 0;
+    transform: translateY(20px) ;
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px) ;
+  }
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #333e86;
+  background-color: #000;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+  width: 100%;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #333e86;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
+  margin-top: 5px;
+}
+
+.navbar-default .navbar-nav>li {
+  padding: 10px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #000;
+  margin-right: 3%;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  a:focus, a:hover {
+    color: #000;
+    text-decoration:none;
+  }
+
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  ul,li {list-style: none;}
+
+  *{margin:0; padding:0;}
+
+  p {
+    margin:0;
+  }
+
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .row {
+    margin:0;
+  }
+
+  #content h3 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: 700;
+    padding: 3% 0 5% 0;
+  }
+
+  .h1, .h2, .h3, h1, h2, h3 {
+   margin:0;
+  }
+
+  .hidden, #skipNav{position: absolute; display: block;width:1px; height: 1px;
+     left:-1000%; top:0; overflow: hidden; color: #fff;}
+
+  .navbar-default {
+    background-color: #000;
+    border-color: #000;
+  } 
+
+  .container-fluid {margin:0; padding:0;}
+
+  .navbar {min-height: 80px;}
+
+  .navbar-default .navbar-nav>li>a {
+    color: #fff;
+  }
+
+  .navbar-default .navbar-nav>li {
+    font-size: 1.5em;
+  }
+
+  .navbar-brand {
+    padding: 8% 15%;
+  }
+
+  .navbar-brand a {
+    width:450px;
+    height:60px;
+  }
+
+  #about {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    padding:5%;
+    overflow: hidden;
+  }
+
+  #about img {
+    width:100%;
+  }
+
+  #about .phrase {
+    margin: 4% 8%;
+    text-align: justify;
+    word-break: break-all;
+    line-height: 2em;
+    font-size: 1.25em;
+  }
+
+  #about .classic {
+    margin: 4% 0;
+    /* opacity: .8; */
+  }
+
+  #product {
+    padding:5%;
+    overflow: hidden;
+  }
+
+  #product .inWrap {
+    position: relative;
+  }
+
+  #product img {
+  display: block;
+  margin-bottom: 10px;
+  scale: 1;
+  transition: all .5s;
+  margin: 0 auto;
+
+}
+
+  #product .swiper-button-prev {
+  left: -2%;
+}
+
+#product .swiper-button-next {
+  right: -2%;
+}
+
+  #product a:hover img {
+  scale: 1.1;
+}
+
+.popup { 
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .8);
+  display: none;
+  z-index: 2000;
+}
+
+.popup_box {
+    width: 50%;
+    height: 60%;
+    margin: auto auto;
+    background: #fff;
+    display: flex;
+    position: relative;
+    margin-top: 13%;
+    border-radius: 50px;
+    padding: 5%;
+  }
+
+.popup_box .info {
+  display: flex;
+  align-items: center;
+  width:100%;
+}  
+
+.popup_box .info .img {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+
+.popup_box .info .wrap {
+  overflow: hidden;
+}
+
+.info .text {
+  padding:1%;
+}
+
+.info dt {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.info .price {
+  font-size: 1.87em;
+  color: #3d56b8;
+  margin-bottom: 20px;
+}
+
+.info .intro {
+  text-align: justify;
+  line-height: 1.8em;
+  word-break: break-all;
+}
+
+.popup_close {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: url(../images/close.png) no-repeat;
+    background-size: cover;
+}
+
+#product span {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .carousel-control {
+    top:50%;
+    width:10%;
+  }
+
+  #product .wrap {
+    overflow: hidden;
+  }
+
+  .carousel-control.left {
+    background-image: none;
+  }
+
+  .carousel-control.right {
+    background-image: none;
+  }
+
+  #handcraft {
+    margin-top:5%;
+    background: url(../images/bg.jpg) no-repeat;
+  }
+
+  #handcraft h3 {
+    margin-bottom: 10%;
+    font-size: 2.5em;
+  }
+
+  #handcraft .phrase {
+    padding: 5%;
+    box-sizing: border-box;
+    text-align: justify;
+    word-break: break-all;
+    line-height: 2em;
+    font-size: 1.25em;
+  }
+
+  #handcraft .row img {
+    transition:all .5s;
+  }
+
+  #handcraft .tabs {
+    width:100%;
+  }
+
+  #handcraft .tab_menu li {
+   float:left;
+   font-size: 1.87em;
+   font-weight: 700;
+   width: 50%;
+   color: #666;
+   margin-bottom: 10%;
+  }
+   
+  .tabs ul li a.on{
+    color: #3d56b8;
+  }
+
+  #handcraft a:hover {
+    color: #3d56b8;
+  }
+
+  #handcraft .tabs a {
+    transition:all .5s;
+  }
+
+
+  #gallery {
+    padding:5%;
+  }
+
+  #gallery img {
+    transition: all .3s;
+    filter: grayscale(0%);
+
+  }
+
+  #gallery img:hover {
+    transition: all .3s;
+    filter: grayscale(100%);
+  }
+
+  #footerArea {
+    background: #000;
+    padding: 3% 5%;
+    /* overflow: hidden; */
+    text-align: center;
+    position: relative;
+  }
+
+  #footerArea p {
+    margin-top: 15px;
+    color: #999;
+  }
+
+  #footerArea .topMove {
+    position:absolute;
+    top: -20%;
+    right: 5%;
+    width:80px;
+    height:80px;
+    background: #000;
+    border-radius: 200px;
+    color:#fff;
+    z-index: 0;
+  }
+
+  #footerArea .topMove span {
+    display: block;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width:1875px) {
+
+    #handcraft p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 11;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+     
+  }  
+
+/* 일반pc md*/
+@media screen and (max-width:1199px) {
+  #about p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .popup_box .info .img {
+    margin-top: 0%;
+  }
+
+  .popup_box .info {
+    flex-direction: column;
+  }
+
+  #handcraft p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #handcraft h3 {
+    margin-bottom: 0;
+   
+  }
+
+#handcraft .tab_menu li {
+  margin-bottom: 5%;
+ }
+
+.navbar-nav {
+  margin-top: 5px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  padding-right: 5%;
+}
+
+}
+
+/* 테블릿 sm*/
+@media screen and (max-width:991px) {
+  #gallery img {
+    filter: grayscale(0%);
+  }
+  #handcraft h3 {
+    margin-bottom: 0;  
+  }
+  #about .ital {
+    padding: 5% 20%;
+  }
+  #handcraft p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .navbar-brand>img {
+    width: 120%;
+}
+
+  .navbar-default .navbar-nav>li {
+    padding: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  margin-top: 10px;
+  margin-right: -5%;
+}
+
+.navbar-default .navbar-nav>li {
+  font-size: 1.25em;
+}
+
+}
+
+/* 소형테블릿 */
+@media screen and (max-width:767px) {
+  .navbar-brand {
+    padding: 3.5% 5%;
+}
+
+.navbar-toggle {
+  padding: 3%;
+  margin-top: 15px;
+}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+.popup_box .info {
+  display: block;
+}
+
+
+
+.popup_box .info .img {
+  width: 70%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+.info dt {font-size: 1em;}
+.info .price {font-size: 1.25em;}
+.info .intro {display: none;}
+
+.popup_box {
+  padding: 10%;
+}
+
+#handcraft .phrase {
+  padding: 5% 5%;}
+
+
+
+}
+
+
+
+@media screen and (max-width:470px) {
+  .navbar-brand>img {
+    width: 70%;
+}
+
+#handcraft h3 {
+  font-size: 1.87em;
+}
+
+}

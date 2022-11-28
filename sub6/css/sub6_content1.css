@@ -1,0 +1,176 @@
+#content {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+#content .titleArea h2 {
+  padding: 240px 0 0 0;
+}
+
+#content .titleArea h2::before {
+  left: 490px;
+}
+
+.contentArea .intro {
+  position: relative;
+  text-align: center;
+}
+
+
+#list_search {
+  padding: 20px;
+  overflow: hidden;
+}
+
+#list_search select {
+  padding: 9.5px 5px;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+
+#list_search div {
+  float:left;
+  margin-right:8px;
+}
+
+#list_search  #list_search1 {
+  margin-right: 440px;
+  margin-top:10px;
+}
+
+#list_search4 input {
+  padding:10px 5px;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+
+#list_search5 button {
+  padding:10px 18px;
+  appearance: none;
+  border-radius: 12px;
+  border: none;
+  background: #d70c19;
+  color:#fff;
+  margin-top:-1px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.list_count {
+  position:absolute;
+  top: 23px;
+  left: 230px;
+}
+
+.list_count #scale {
+  padding: 9.5px 5px;
+  border-radius: 12px;
+  margin-top:-2px;
+  cursor: pointer;
+}
+
+#list_item {
+  overflow: hidden;
+  width:1000px;
+  margin:0 auto;
+}
+
+#list_top_title {
+  overflow:hidden;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  /* border-bottom: 1px solid #e8e8e8; */
+  border-top: 2px solid #d70c19;
+  background: #fff3f5;
+}
+
+#list_top_title li {
+  float:left;
+  text-align: center;
+}
+
+#list_top_title #list_title1 {
+  width: 120px;
+}
+
+#list_top_title #list_title2 {
+  width: 520px;
+}
+
+#list_top_title #list_title3 {
+  width: 120px;
+}
+
+#list_top_title #list_title4 {
+  width: 120px;
+}
+
+#list_top_title #list_title5 {
+  width: 120px;
+}
+
+#list_item {
+  border-bottom: 1px solid #e8e8e8;
+  
+}
+
+#list_item div {
+  float:left;
+  padding:20px 0;
+  
+}
+/* 
+#list_item:hover {
+  background-color: #fff3f5;
+} */
+
+#list_item #list_item1 {
+  width: 120px;
+}
+
+#list_item #list_item2 {
+  width: 520px;
+}
+
+#list_item #list_item2 a {
+  display: block;
+  width: 100%;
+}
+
+#list_item #list_item3 {
+  width: 120px;
+}
+
+#list_item #list_item4 {
+  width: 120px;
+}
+
+#list_item #list_item5 {
+  width: 120px;
+}
+
+#page_button {
+  margin-top: 40px;
+}
+
+div#button {
+  position: absolute;
+  right: 25px;
+  bottom: 0;
+}
+
+div#button a {
+  padding:10px 18px;
+  appearance: none;
+  border-radius: 12px;
+  border: none;
+  background: #d70c19;
+  color:#fff;
+  margin-top:-1px;
+  cursor: pointer;
+}
+
+

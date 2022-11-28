@@ -1,0 +1,159 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.drYou .intro {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.drYou .intro > img {
+  width: 1200px;
+}
+
+.drYou .intro img:last-child {
+  width: 340px;
+}
+
+.drYou .intro p {
+  margin: 70px 70px 70px 0;
+  line-height: 2.2em;
+  font-size: 1.25em;
+  text-align: right;
+}
+
+.drYou .intro .wrap span {
+  font-size: 1.87em;
+  font-weight: 700;
+  margin-right: 30px;
+  padding-top: 70px;
+  display: inline-block;
+}
+
+.drYou .intro .wrap {
+  width: 740px;
+  margin-left: 435px;
+  margin-bottom: 200px;
+}
+
+/* 서브3개영역 */
+
+.drYou .list {
+  display: flex;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.drYou .list li {
+  margin-right: 60px;
+  position: relative;
+  height: 650px;
+  width: 360px;
+  overflow: hidden;
+  border-radius: 50px;
+  transition: ease-out 0.3s;
+}
+
+.drYou .list li:first-child {
+  background: url(../images/content2/sub1.jpg);
+}
+
+.drYou .list li:nth-of-type(2) {
+  background: url(../images/content2/sub2.jpg);
+}
+
+.drYou .list li:last-child {
+  background: url(../images/content2/sub3.jpg);
+}
+
+.drYou .list p {
+  position: absolute;
+  width: 370px;
+  text-align: center;
+  top: 45%;
+  left: 0;
+  font-size: 3.125em;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+}
+
+.drYou .list li:hover p {
+  display: none;
+}
+
+.drYou .list li:first-child .sub {
+  color: #333;
+}
+
+.drYou .list li:last-child {
+  margin-right: 0;
+}
+
+.drYou .list li:hover {
+  width: 650px;
+}
+
+.drYou .list dl {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  color: #fff;
+  width: 530px;
+  text-align: left;
+  opacity: 0;
+  transition: ease-out 0.3s;
+}
+
+.bg {
+  width: 100%;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.list li:hover .bg {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.drYou .list li:hover dl {
+  opacity: 1;
+  display: block;
+}
+
+.drYou .list .sub dt {
+  font-weight: 700;
+  font-size: 1.56em;
+  margin-bottom: 35px;
+}
+
+.drYou .list .sub dd {
+  line-height: 2em;
+  font-size: 1.125em;
+}
+
+.more {
+  border-radius: 30px;
+  border: 1px solid #f2c875;
+  font-size: 1.25em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 300px;
+  width: 300px;
+  transition: all ease-out 0.3s;
+}
+
+.more a {
+  color: #f2c875;
+  display: block;
+  padding: 20px;
+}
+
+.more:hover {
+  background: #f2c875;
+}
+
+.more:hover a {
+  color: #fff;
+}

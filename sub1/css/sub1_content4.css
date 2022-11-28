@@ -1,0 +1,662 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contentArea .global .worldWide {
+  position: relative;
+  margin-bottom: 130px;
+}
+
+.global .worldWide .map {
+  background: url(../images/content4/world.jpg) no-repeat center;
+  width: 2000px;
+  height: 800px;
+  margin-left: -400px;
+}
+
+.global .worldWide .wrap {
+  text-align: center;
+  width: 2000px;
+  margin-left: -400px;
+  padding-top: 90px;
+  background: #f8f8f8;
+}
+
+.global .worldWide h3 {
+  font-size: 3.12em;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-family: "Nanum Gothic";
+}
+
+.global .worldWide .wrap p {
+  font-size: 1.25em;
+  line-height: 2em;
+}
+
+.global .worldWide ul li {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.global .worldWide ul li i {
+  font-size: 35px;
+  color: #d70c19;
+  display: block;
+  margin-bottom: 10px;
+  animation: motion 0.7s linear infinite alternate;
+}
+
+@keyframes motion {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 7px;
+  }
+}
+
+.global .worldWide li:nth-of-type(1) {
+  position: absolute;
+  top: 490px;
+  right: 140px;
+}
+
+.global .worldWide li:nth-of-type(2) {
+  position: absolute;
+  top: 500px;
+  right: 300px;
+}
+
+.global .worldWide li:nth-of-type(3) {
+  position: absolute;
+  top: 400px;
+  right: 330px;
+}
+
+.global .worldWide li:nth-of-type(4) {
+  position: absolute;
+  top: 600px;
+  right: 200px;
+}
+
+.global .worldWide li:nth-of-type(5) {
+  position: absolute;
+  top: 600px;
+  right: 340px;
+}
+
+.global .tabs2 {
+  position: relative;
+  /* overflow: hidden; */
+  width: 2000px;
+  margin-left: -12px;
+  margin-bottom: 90px;
+}
+
+.global .tabs2::after {
+  content: '';
+  display: block;
+  clear:both;
+}
+
+.global .tabs2 h3 {
+  text-indent: -9999px;
+  width: 1px;
+  height: 1px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.global .tabs2 li {
+  float: left;
+  font-size: 11.87em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+}
+
+.global .tabs2 li:last-child {
+  margin-right: 0;
+}
+
+.global .tabs2 li:hover a {
+  color: #333;
+}
+
+.global .tabs2 li a {
+  position:relative;
+  top:0;
+  display: block;
+  color: #e8e8e8;
+  transform: scaleX(1);
+  transition: all .5s;
+}
+
+/* .global .tabs2 li:nth-of-type(2) a {
+  position:relative;
+  top:0;
+  display: block;
+  color: #e8e8e8;
+  transform: scaleX(1);
+  transition: all .5s;
+}
+
+.global .tabs2 li:nth-of-type(3) a {
+  position:relative;
+  top:0;
+  display: block;
+  color: #e8e8e8;
+  transform: scaleX(1);
+  transition: all .5s;
+}
+
+.global .tabs2 li:last-child a {
+  position:relative;
+  top:0;
+  display: block;
+  color: #e8e8e8;
+  transform: scaleX(1);
+  transition: all .5s;
+} */
+
+.china {
+  position: relative;
+  display: none;
+}
+
+.china .img {
+  background: url(../images/content4/china.jpg) no-repeat;
+  height: 1000px;
+  width: 1540px;
+}
+
+.china .intro dt {
+  position: absolute;
+  top: -100px;
+  left: -10px;
+  font-size: 11.87em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.china .intro dd {
+  position: absolute;
+  top: 500px;
+  left: -60px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 4px 4px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.china .intro dd p {
+  width: 780px;
+  line-height: 2em;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.china .intro span:nth-child(1) {
+  font-size: 1.87em;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.china .intro span:nth-of-type(2) {
+  font-weight: 700;
+}
+
+.china .sales {
+  overflow: hidden;
+  margin-bottom: 180px;
+}
+
+.china .sales {
+  overflow: hidden;
+  margin-bottom: 180px;
+  width: 800px;
+}
+
+.china .sales li p {
+  font-size: 1.87em;
+  font-weight: 700;
+  margin-bottom: 35px;
+  background: #fff;
+  border-bottom: 3px solid #333;
+  padding-bottom: 20px;
+}
+
+.china .sales li:nth-of-type(1) {
+  float: left;
+}
+
+.china .sales li:nth-of-type(2) {
+  float: right;
+}
+
+.china .sales strong {
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.china .sales span {
+  font-size: 1.87em;
+}
+
+.china .company {
+  position: relative;
+  width: 2000px;
+  height: 420px;
+  margin-left: -400px;
+  border-top: 1px solid #666;
+  background: #f8f8f8;
+}
+
+.china .company .wrap {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 1200px;
+  padding-top: 30px;
+}
+
+.china .company p {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.china .company dl {
+  float: left;
+  width: 255px;
+  margin-right: 60px;
+}
+
+.china .company dl:last-child {
+  margin-right: 0;
+}
+
+.china .company dt {
+  font-size: 1.56em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* 베트남 */
+.vietnam {
+  position: relative;
+  display: none;
+}
+
+.vietnam .img {
+  background: url(../images/content4/vietnam.jpg) no-repeat;
+  height: 1000px;
+  width: 1540px;
+}
+
+.vietnam .intro dt {
+  position: absolute;
+  top: -100px;
+  left: 0px;
+  font-size: 11.87em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.vietnam .intro dd {
+  position: absolute;
+  top: 500px;
+  left: -60px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 4px 4px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vietnam .intro dd p {
+  width: 780px;
+  line-height: 2em;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.vietnam .intro span:nth-child(1) {
+  font-size: 1.87em;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.vietnam .intro span:nth-of-type(2) {
+  font-weight: 700;
+}
+
+.vietnam .sales {
+  overflow: hidden;
+  margin-bottom: 180px;
+  width: 800px;
+}
+
+.vietnam .sales li p {
+  font-size: 1.87em;
+  font-weight: 700;
+  margin-bottom: 35px;
+  background: #fff;
+  border-bottom: 3px solid #333;
+  padding-bottom: 20px;
+}
+
+.vietnam .sales li:nth-of-type(1) {
+  float: left;
+}
+
+.vietnam .sales li:nth-of-type(2) {
+  float: right;
+}
+
+.vietnam .sales strong {
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.vietnam .sales span {
+  font-size: 1.87em;
+}
+
+.vietnam .company {
+  position: relative;
+  width: 2000px;
+  height: 420px;
+  margin-left: -400px;
+  border-top: 1px solid #666;
+  background: #f8f8f8;
+}
+
+.vietnam .company .wrap {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 1200px;
+  padding-top: 30px;
+}
+
+.vietnam .company p {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.vietnam .company dl {
+  float: left;
+  width: 255px;
+  margin-right: 60px;
+}
+
+.vietnam .company dl:last-child {
+  margin-right: 0;
+}
+
+.vietnam .company dt {
+  font-size: 1.56em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+/* 러시아 */
+
+.russia {
+  position: relative;
+  display: none;
+}
+
+.russia .img {
+  background: url(../images/content4/russia.jpg) no-repeat;
+  height: 1000px;
+  width: 1540px;
+}
+
+.russia .intro dt {
+  position: absolute;
+  top: -100px;
+  left: -13px;
+  font-size: 11.87em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.russia .intro dd {
+  position: absolute;
+  top: 500px;
+  left: -60px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 4px 4px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.russia .intro dd p {
+  width: 780px;
+  line-height: 2em;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.russia .intro span:nth-child(1) {
+  font-size: 1.87em;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.russia .intro span:nth-of-type(2) {
+  font-weight: 700;
+}
+
+.russia .sales {
+  overflow: hidden;
+  margin-bottom: 180px;
+  width: 800px;
+}
+
+.russia .sales li p {
+  font-size: 1.87em;
+  font-weight: 700;
+  margin-bottom: 35px;
+  background: #fff;
+  border-bottom: 3px solid #333;
+  padding-bottom: 20px;
+}
+
+.russia .sales li:nth-of-type(1) {
+  float: left;
+}
+
+.russia .sales li:nth-of-type(2) {
+  float: right;
+}
+
+.russia .sales strong {
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.russia .sales span {
+  font-size: 1.87em;
+}
+
+.russia .company {
+  position: relative;
+  width: 2000px;
+  height: 420px;
+  margin-left: -400px;
+  border-top: 1px solid #666;
+  background: #f8f8f8;
+}
+
+.russia .company .wrap {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 1200px;
+  padding-top: 30px;
+}
+
+.russia .company p {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.russia .company dl {
+  float: left;
+  width: 255px;
+  margin-right: 60px;
+}
+
+.russia .company dl:last-child {
+  margin-right: 0;
+}
+
+.russia .company dt {
+  font-size: 1.56em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* 인도 */
+
+.india {
+  position: relative;
+  display: none;
+}
+
+
+.india .img {
+  background: url(../images/content4/india.jpg) no-repeat;
+  height: 1000px;
+  width: 1540px;
+}
+
+.india .intro dt {
+  position: absolute;
+  top: -100px;
+  left: -13px;
+  font-size: 11.87em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.india .intro dd {
+  position: absolute;
+  top: 500px;
+  left: -60px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 4px 4px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.india .intro dd p {
+  width: 780px;
+  line-height: 2em;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.india .intro span:nth-child(1) {
+  font-size: 1.87em;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.india .intro span:nth-of-type(2) {
+  font-weight: 700;
+}
+
+.india .company {
+  position: relative;
+  width: 2000px;
+  height: 420px;
+  margin-left: -400px;
+  border-top: 1px solid #666;
+  background: #f8f8f8;
+}
+
+.india .company .wrap {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 1200px;
+  padding-top: 30px;
+}
+
+.india .company p {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.india .company dl {
+  float: left;
+  width: 255px;
+  margin-right: 60px;
+}
+
+.india .company dl:last-child {
+  margin-right: 0;
+}
+
+.india .company dt {
+  font-size: 1.56em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.company dd {
+  font-size: 1.125em;
+  line-height: 1.8em;
+  word-break: break-all;
+  width: 230px;
+  text-align: justify;
+}
+
+.tab2_menu li a.now {
+  color: #333;
+}
+
+.global .tabs2 li a.move0 {
+  position:relative;
+  left: 0;
+  top: 420px;
+  z-index: 100;
+}
+
+.global .tabs2 li a.move1 {
+  position:relative;
+  left: -620px;
+  top: 420px;
+  z-index: 100;
+}
+
+.global .tabs2 li a.move2 {
+  position:relative;
+  left: -1px;
+  top: 205px;
+  z-index: 100;
+}
+
+.global .tabs2 li a.move3 {
+  position:relative;
+  left: -746px;
+  top: 205px;
+  z-index: 100;
+}
+
+/* animation: motion 0.7s linear infinite alternate; */
+
+
+/* @keyframes move1 {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 7px;
+  }
+} */

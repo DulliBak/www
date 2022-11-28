@@ -1,0 +1,250 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#content .titleArea h2 {
+  margin-bottom: 130px;
+}
+
+.contentArea .newInner::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.contentArea .newInner ul {
+  padding: 15px;
+}
+
+.contentArea .newInner li {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: #fff;
+  box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  float: left;
+  margin-right: 135px;
+  transition: ease-out 0.3s;
+}
+
+.contentArea .newInner li:hover {
+  box-shadow: none;
+}
+
+.contentArea .newInner li:hover p {
+  opacity: 1;
+}
+
+.contentArea .newInner li:hover span {
+  transform: translateY(-190px);
+}
+
+.contentArea .newInner li:hover img {
+  transform: translateY(75px);
+}
+
+.contentArea .newInner li:hover span {
+  color: #fff;
+}
+
+.contentArea .newInner li:nth-of-type(1):hover {
+  background: #792b5a;
+}
+
+.contentArea .newInner li:nth-of-type(2):hover {
+  background: #550101;
+}
+
+.contentArea .newInner li:nth-of-type(3):hover {
+  background: #550101;
+}
+
+.contentArea .newInner li:nth-of-type(4):hover {
+  background: #00b8ee;
+}
+
+.contentArea .newInner li:nth-of-type(5):hover {
+  background: #30642e;
+}
+
+.contentArea .newInner li:nth-of-type(6):hover {
+  background: #ae0f14;
+}
+
+.contentArea .newInner li:nth-of-type(3) {
+  margin-right: 0;
+  margin-bottom: 110px;
+}
+
+.contentArea .newInner li:nth-of-type(6) {
+  margin-right: 0;
+  margin-bottom: 150px;
+}
+
+.contentArea .newInner span {
+  display: block;
+  text-align: center;
+  font-size: 1.56em;
+  font-weight: 700;
+  margin-top: 200px;
+  transition: ease-out 0.5s;
+}
+
+.contentArea .newInner p {
+  font-size: 1.12em;
+  text-align: center;
+  line-height: 1.8em;
+  opacity: 0;
+  color: #fff;
+  padding-top: 40px;
+  transition: ease-out 0.5s;
+}
+
+.contentArea .newInner img {
+  position: absolute;
+  bottom: 100px;
+  left: 13%;
+  width: 220px;
+  transition: ease-out 0.5s;
+  transform: scale(1.2);
+}
+
+.contentArea .newInner a {
+  display: block;
+}
+
+.contentArea .newInner .newsign {
+  position:absolute;
+  top:-45px;
+  left:0;
+  width:130px;
+  height:100px;
+  background: #d70c19;
+  border-radius: 20px;
+  font-size: 1.125em;
+  padding-top: 13px;
+  text-align: center;
+  color:#fff;
+  z-index:-100;
+  font-weight: 700;
+}
+
+.contentArea .newInner .renewal {
+  position:absolute;
+  top:-45px;
+  left:0;
+  width:130px;
+  height:100px;
+  background: #0038e9;
+  border-radius: 20px;
+  font-size: 1.125em;
+  padding-top: 13px;
+  font-weight: 700;
+  text-align: center;
+  color:#fff;
+  z-index:-100;
+}
+
+.modal_box2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.45);
+  display: none;
+}
+
+.product_int {
+  z-index: 1100;
+  width: 900px;
+  height: 370px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.1); 
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  margin: -310px -470px;
+  /* transform: translate(-50%, -50%); */
+  display: none;
+  overflow: hidden;
+  padding: 30px;  
+}
+
+.close_btn2 {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  display: block;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  padding: 9px 9px;
+  color: #e8e8e8;
+  text-align: center;
+  font-size: 2em;
+  z-index: 1200;
+}
+
+.close_btn2 i {
+  font-size: 50px;
+}
+
+.top img {
+  float:left;
+  width:40%;
+  margin-top: 10px;
+}
+
+.top dl {
+  float:left;
+  width: 470px;
+  margin: 40px 30px 30px 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #666;
+}
+
+.top dt {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+.top dd {
+  font-size: 1.87em;
+  font-weight: 700;
+}
+
+/* 
+.top dl::after {
+  content:'';
+  display: block;
+  clear: both;
+} */
+
+.top ul {
+  /* overflow: hidden; */
+  display: flex;
+  padding-left: 30px;
+  flex-wrap: wrap;
+  width:400px;
+}
+
+.top li {
+  font-size: 1.25em;
+  margin-bottom: 15px;
+}
+
+.top strong {
+  margin-right: 10px;
+  
+}
+
+.top span {
+  margin-right: 50px;
+  
+}

@@ -1,0 +1,62 @@
+#content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.ceo {
+  overflow: hidden;
+}
+
+.ceo > img {
+  width: 400px;
+  position: absolute;
+  top: 525px;
+  left: -110px;
+}
+
+.ceo .ceoInner {
+  float: right;
+  width: 810px;
+  text-align: justify;
+  font-size: 1.25em;
+  line-height: 1.9em;
+  margin: 280px 0 200px 0;
+}
+
+.ceo .ceoInner strong:first-child {
+  display: block;
+  font-size: 1.87em;
+  margin-bottom: 40px;
+  color: #d70c19;
+}
+
+.ceo .ceoInner span {
+  display: block;
+  font-weight: 700;
+}
+
+.ceo .ceoInner p {
+  margin-bottom: 40px;
+}
+
+.ceo .ceoInner .sign {
+  position: relative;
+}
+
+.ceo .ceoInner .sign p {
+  margin-bottom: 15px;
+}
+
+.ceo .ceoInner .sign strong {
+  font-size: 1.56em;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.ceo .ceoInner .sign img {
+  position: absolute;
+  top: 35px;
+  left: 100px;
+  width: 130px;
+}

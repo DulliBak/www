@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Maria Novella</title>
+
+    <link rel="shortcut icon"  type="image/x-icon"  href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+<!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body data-spy="scroll" data-target="#navbar-example" data-offset="40" cz-shortcut-listen="true">
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#navbar">글로벌 네비게이션 바로가기</a>
+   </div>
+
+    <div class="container-fluid">
+        <header id="headerArea">
+           <h1 class="hidden">Santa Maria Novella</h1>
+           <nav id="navbar-example" class="navbar navbar-default navbar-fixed-top">
+                 <h2 class="hidden">글로벌네비게이션</h2>
+                 <div class="header_inner" id="#top">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".bs-example-js-navbar-scrollspy">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="./images/logo.jpg" alt="Santa Maria Novella logo">
+                            <span class="text-hide">Santa Maria Novella</span></a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right bs-example-js-navbar-scrollspy">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#about">About</a>
+                                <h3 class="hidden">About</h3>
+                            </li>
+                            <li><a href="#product">Product</a>
+                                <h3 class="hidden">Product</h3>
+                            </li>
+                            <li><a href="#handcraft">HandCraft</a>
+                                <h3 class="hidden">HandCraft</h3>
+                            </li>
+                            <li><a href="#gallery">Gallery</a>
+                                <h3 class="hidden">Gallery</h3>
+                            </li>
+                        </ul>
+                    </div>
+           </nav>
+        </header>
+        <div class="main_visual">
+            <div id="carousel-generic" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators list-unstyled">
+                    <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-generic" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner carousel-fade" role="listbox">
+                    <div class="item active">
+                        <img src="./images/visual01.jpg" alt="First slide">
+                        <div class="carousel-caption">
+                            <p>Since 1221</p>
+                            <strong>The World's First Pharmacy</strong>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/visual02.jpg" alt="Second slide">
+                        <p class="carousel-caption"></p>
+                    </div>
+                    <div class="item">
+                        <img src="./images/visual03.jpg" alt="Third slide">
+                        <p class="carousel-caption"></p>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-generic" data-slide="prev">
+                    <img class="control" src="./images/left.png" alt="left">
+                </a>
+                <a class="right carousel-control" href="#carousel-generic" data-slide="next">
+                    <img class="control" src="./images/right.png" alt="right">
+                </a>
+            </div>
+    
+        </div>
+        <article id="content">
+            <h2 class="hidden">본문 콘텐츠 영역</h2>
+
+            <div id="about">
+                <div class="title_area">
+                    <h3>About</h3>
+                </div>
+
+                <div class="ital col-lg-3 hidden-md col-sm-12 col-xs-12">
+                    <img src="./images/about01.jpg" alt="이탈리아 수도사">
+                </div>
+
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                    <p class="phrase">Santa Maria Novella is a cosmetic brand that originated from a pharmacy created by monks of Santa Maria Novella Cathedral in Florence, Italy, in 1221. Santa Maria Nobel began to gain recognition through its excellent efficacy in various medicines and household goods, including rose water, which has sterilization and disinfection effects made of herbs grown by monks. Since then, it has been known to the public as the "world's first pharmacy," and the main store in Florence, where the pharmacy is located, has become a tourist attraction. Santa Maria Nobel has become a world-class cosmetic brand, producing cosmetics such as perfume, basic face, body supplies, soap, and air fresheners, as the raw materials and traditional techniques used by monks more than 400 years ago.</p>
+                </div>  
+                
+                <div class="classic col-lg-3 col-md-4 hidden-sm hidden-xs">
+                    <img src="./images/about02.png" alt="산타마리아노벨라 초기로고">
+                </div>
+            </div>
+
+            <div id="product">
+                <div class="title_area">
+                    <h3>Product</h3>
+                </div>
+
+                <div class="inWrap">
+					<div class="swiper-container">	
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide item1">
+                                <a href="#">
+                                    <div class="wrap">
+                                    <img src="./images/product01.jpg" alt="">
+                                    </div>
+                                    <strong>Rosa Novella Scented Wax Tablets</strong>
+                                    <span>24,00 €</span>
+                                </a>
+                            </li>
+
+							<li class="swiper-slide item2">
+                                <a href="#">
+                                    <div class="wrap">
+                                    <img src="./images/product02.jpg" alt="">
+                                    </div>
+                                    <strong>Angeli di Firenze Scented Wax Tablets</strong>
+                                    <span>24,00 €</span>
+                                </a>
+                            </li>
+                            	
+							<li class="swiper-slide item3">
+                                <a href="#">
+                                    <div class="wrap">
+                                    <img src="./images/product03.jpg" alt="">
+                                    </div>
+                                    <strong>Vespro Scented Candle</strong>
+                                    <span>65,00 €</span>
+                                </a>
+                            </li>
+
+							<li class="swiper-slide item4">
+                                <a href="#">
+                                    <div class="wrap">
+                                    <img src="./images/product04.jpg" alt="">
+                                    </div>
+                                    <strong>Rosa Gardenia Bath Gel</strong>
+                                    <span>50,00 €</span>
+                                </a>
+                            </li>	
+
+							<li class="swiper-slide item5">
+                                <a href="#">
+                                    <div class="wrap">
+                                    <img src="./images/product05.jpg" alt="">
+                                    </div>
+                                    <strong>Acqua di Rose</strong>
+                                    <span>30,00 €</span>
+                                </a>
+                            </li>
+
+                            <li class="swiper-slide item6">
+                                <a href="#">
+                                    <div class="wrap">
+                                    <img src="./images/product06.jpg" alt="">
+                                    </div>
+                                    <strong>Colonia Russa</strong>
+                                    <span>43,00 €</span>
+                                </a>
+                            </li>
+						</ul>
+
+				</div>
+
+                <div class="swiper-button-next button"><span class="hidden">다음제품보기</span></div>
+                <div class="swiper-button-prev button"><span class="hidden">이전제품보기</span></div>
+
+            </div>
+            
+            <div class="popup">
+                <div class="popup_box">
+                    <div class="info">
+                      <div class="img"></div>
+                        <div class="text">
+                            <dl>
+                                <dt></dt>
+                                <dd class="price"></dd>
+                                <dd class="intro"></dd>
+                            </dl>
+                        </div>
+                    <a href="#" class="popup_close">
+                        <span class="hidden">팝업닫기</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+        
+
+            <div id="handcraft">
+                <div class="row">
+                    <img class="brush col-lg-4 col-md-4 hidden-sm hidden-xs" src="./images/hand01.jpg" alt="붓칠하는 모습" >
+                    <img class="hidden-lg hidden-md col-sm-12 col-xs-12" src="./images/hand03.jpg" alt="" >
+                    
+                    <div class="phrase col-lg-4 col-md-8 col-sm-12 col-xs-12" class="title_area">
+                            <h3>HandCraft</h3>
+
+                            <div class="tabs">
+                                <ul class="tab_menu">
+                                    <li><a class="tab tab1 on" href="#">#handmade</a></li>
+                                    <li><a class="tab tab2" href="#">#natural</a></li>
+                                </ul>
+                            </div>	
+                        
+                        <div class="contlist col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <p id="first">
+                                All products are made using herbs and natural oils, inheriting the ancient ways of monks. The herbs used must be grown in the Florence area, and no animal testing is performed on any product. The Santa Maria Novella factory maintains many processes manually, including packaging, labeling, brush painting, carving, and potpourri.
+                            </p>
+                            <p id="second">
+                                In 2012, the package was renewed to mark the 400th anniversary of its launch. It also released a 2012 limited edition of Aqua di Colonia 1612, a commemorative perfume that combines the scent of Ottone and Porcellana from the East. In the same year, it launched "Albadi Seoul," a perfume commemorating Seoul, and put a picture of photographer Bae Byung-woo's pine tree in the perfume case.
+                            </p>
+                        </div>
+
+                    </div>
+                    <img class="wax col-lg-4 hidden-md hidden-sm hidden-xs" src="./images/hand02.jpg" alt="왁스타블렛 제조 모습" >
+                </div>
+
+            </div>
+
+            <div id="gallery">
+                <div class="title_area">
+                    <h3>Gallery</h3>
+                </div>
+
+                <div class="row">
+                    <div class="row">
+                        <img class="col-lg-8 col-md-12 col-sm-12 col-xs-12" src="./images/gallery01.jpg" alt="">
+                        <img class="col-lg-4 hidden-md hidden-sm col-xs-12" src="./images/gallery02.jpg" alt="">
+                    </div>
+
+                    <div class="row row2">
+                        <img class="col-lg-4 col-md-6 hidden-sm col-xs-12" src="./images/gallery03.jpg" alt="">
+                        <img class="col-lg-4 col-md-6 col-sm-6 col-xs-12" src="./images/gallery04.jpg" alt="">
+                        <img class="col-lg-4 col-md-6 col-sm-6 col-xs-12" src="./images/gallery05.jpg" alt="">
+
+                        <img class="col-lg-8 hidden-md col-sm-12 col-xs-12" src="./images/gallery06.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+   
+
+        </article>
+
+        <footer id="footerArea">
+            <img src="./images/logo.jpg" alt="footer logo">
+            <a class="topMove" href="#">
+                <span>TOP</span>
+            </a>
+                <p>© 2022, Officina Profumo-Farmaceutica di Santa Maria Novella</p>
+        </footer>
+    </div>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.touchSwipe.js"></script>
+    <script>
+
+        $(".carousel-inner").swipe({
+        swipeLeft: function() {
+        $(this).parent().carousel('next');
+        },
+        swipeRight: function() {
+        $(this).parent().carousel('prev');
+        },
+        threshold:0
+        });
+        
+        </script>
+</body>
+</html>

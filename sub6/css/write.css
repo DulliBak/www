@@ -1,0 +1,139 @@
+#content {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+  }
+
+  #content .titleArea h2 {
+    padding: 240px 0 0 0;
+    }
+
+  #content .titleArea h2::before {
+    left: 490px;
+  }
+
+  #write_form {
+    overflow: hidden;
+    border-top: 2px solid #d70c19;
+  }
+
+  #write_row1 {
+    overflow: hidden;
+    background: #fff3f5;
+    border-bottom: 1px solid #999;
+  }
+
+  #write_row1 .col1 {
+    float: left;
+    width: 210px;
+    text-align: center;
+  }
+
+  #write_row1 .col2 {
+    float: left;
+    padding: 30px;
+
+  }
+
+  #write_row1 .col3 {
+    position: absolute;
+    right: 40px;
+    top: 110px;
+
+  }
+
+  #write_row2 {
+    overflow: hidden;
+  }
+
+  #write_row2 .col1 {
+    float: left;
+    width: 210px;
+    text-align: center;
+  }
+
+  #write_row2 .col2 {
+    float: left;
+    padding:30px;
+  }
+
+  #write_row2 .col2 input {
+    appearance: none;
+    width:500px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .col1 {
+    width:170px;
+    padding:30px;
+    background: #fff3f5;
+  }
+
+  #write_row3 {
+    overflow: hidden;
+    background: #fff3f5;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    text-align: center;
+  }
+
+  #write_row3 .col1 {
+    float:left;
+    width: 209px;
+  }
+
+  #write_row3 .col2 {
+    float:left;
+  }
+
+  #write_row3 textarea {
+    padding: 35px 41px;
+    text-align: justify;
+    word-break: break-all;
+    line-height: 1.8em;
+    border: none;
+    margin-top:1px;
+    resize: none;
+  }
+
+  input[type="text" i] {
+    padding: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+  #write_row3 textarea:focus {
+    outline: none;
+  }
+  
+  #write_button {
+    padding: 40px 30px;
+    text-align: right;
+  }
+
+  #write_button a {
+    padding:10px 18px;
+    border-radius: 12px;
+    border: none;
+    background: #d70c19;
+    color:#fff;
+    cursor: pointer;
+    
+  }
+
+  #write_button button {
+    padding:10px 18px;
+    border-radius: 12px;
+    border: none;
+    appearance: none;
+    background: #d70c19;
+    color:#fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Nanum Gothic", sans-serif, "arial";
+  }
+  

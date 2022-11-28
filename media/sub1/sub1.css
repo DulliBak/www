@@ -1,0 +1,320 @@
+
+#content {background-color: #000;}
+
+.videoBox h2{
+    position:absolute;
+    top:40%;
+    left:45%;
+    text-align: center;
+    font-size: 6rem;
+    color:#000;
+    animation: blur 1s;
+}
+
+@keyframes blur {
+    50% { filter: blur(7px);}
+	0% { filter: blur(0);}
+}
+
+
+.videoBox img {
+    width: 100%;
+}
+
+.summary {
+    position: relative;
+    overflow: hidden;
+    padding: 10% 6%;
+}
+
+.summary strong {
+    position:absolute;
+    top:25%;
+    left:6%;
+    font-size: 3em;
+    color:#ffe938;
+    z-index: 10;
+}
+
+.summary .box {
+    float: right;
+    position:relative;
+    right: -10%;
+    clip-path: polygon(20% 0, 100% 0, 100% 70%, 80% 100%, 0 100%, 0 30%);
+}
+
+.summary p {
+    text-align: justify;
+    word-break: break-all;
+    width: 30%;
+    font-size: 1.25rem;
+    margin-top: 20%;
+}
+
+
+
+
+.director {
+    overflow: hidden;
+    padding:10% 6%;
+    background: url(./images/director_bg.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.director .box {
+    position:relative;
+    left: -10%;
+    float: left;
+    clip-path: polygon(20% 0, 100% 0, 100% 70%, 80% 100%, 0 100%, 0 30%);
+}
+
+#content .director h3 {
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 4%;
+}
+
+#content .director strong {
+    font-size: 5rem;
+    color: #ffe938;
+    font-family: 'Gidugu', sans-serif;
+}
+
+.director p {
+    text-align: justify;
+    word-break: break-all;
+    font-size: 1.25em;
+    margin-top: 2%;
+}
+
+
+
+
+.synopsis {
+    padding:10% 6%;
+    overflow: hidden;
+}
+
+.synopsis h3 {
+    margin-top: 2%;
+}
+
+.synopsis p {
+    text-align: justify;
+    word-break: break-all;
+    font-size: 1.25em;
+    margin-top: 2%;
+}
+
+.synopsis .box {
+    float: right;
+    position:relative;
+    right: -10%;
+    clip-path: polygon(20% 0, 100% 0, 100% 70%, 80% 100%, 0 100%, 0 30%);
+}
+
+.box img {transition: .8s; scale: 1; filter: grayscale(100%);}
+
+.box img:hover {scale: 1.1; filter: grayscale(0%);}
+
+
+.awards {
+    overflow: hidden;
+    padding:10% 6%;
+    background: url(./images/award_bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+.awards .tab_menu  {
+        overflow: hidden;
+        padding-bottom: 1%;
+    }
+
+.awards .tab_menu li {
+    float:left;
+    margin-right: 5%;
+}
+
+.awards .tab_menu li a {
+    font-size: 5rem;
+    color: #a99700;
+    font-family: 'Gidugu', sans-serif;
+}
+
+.awards .box {
+    position:relative;
+    left: -10%;
+    float: left;
+    clip-path: polygon(20% 0, 100% 0, 100% 70%, 80% 100%, 0 100%, 0 30%);
+} 
+
+.awards .box img {
+    filter:grayscale(0%);
+}
+
+.awards li {
+    margin-top: 2%;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 1.25em;
+}
+
+.awards .tab_menu a.now {
+    color: #ffe938;
+}
+
+#awards2017 {display: none;}
+
+
+@media screen and (max-width:1024px) {
+
+    .videoBox h2 {
+        left: 43%;
+    }
+
+    .summary strong {
+     top: 55%;
+     font-size: 2.5em;
+    }
+
+    .summary p {
+      width: 100%;
+    }
+
+    .box img {
+     margin-bottom: 5%;
+    }
+
+    .synopsis .box img {
+        margin-bottom: 2%;
+    }
+
+    .awards .box img {
+        margin-bottom: 2%;
+    }
+
+}
+
+
+@media screen and (max-width:640px) {
+
+.videoBox h2 {
+    left: 35%;
+}
+
+.summary .box {
+    right: -45%;
+}
+
+.summary strong {
+    top: 68%;
+    font-size: 1.6em;
+}
+
+.box img {
+    margin-bottom: 11%;
+}
+
+.director .box {
+    left: -40%;
+}
+
+.director {
+    background-attachment: revert;
+}
+
+.director .box img {
+    margin-bottom: 5%;
+}
+
+.synopsis .box {
+    right: -30%;
+}
+
+.box img {filter: grayscale(0);}
+
+.synopsis .box img {
+    margin-bottom: 2%;
+}
+
+.awards .box img {
+    margin-bottom: 0;
+}
+
+.awards .tab_menu {
+    padding-bottom: 5%;
+}
+
+.awards {
+    background-attachment: revert;
+}
+
+.awards .tab_menu {
+    padding-bottom: 4%;
+}
+
+
+}
+
+
+@media screen and (max-width:414px) {
+
+.box img {
+        width: 100%;
+}
+
+#headerArea .mainMenu {
+    height: 190%;
+}
+
+.videoBox h2 {
+    left: 32%;
+}
+
+#content .awards h3 {
+    font-size: 3rem;
+}
+
+#content .box {position:static;}
+
+#content .director strong {
+    font-size: 3rem;
+}
+
+#content .summary strong {
+    font-size: 1.25em;
+}
+
+#content .synopsis strong {
+    font-size: 3em;
+}
+
+.summary strong {
+    top: 40%;
+}
+
+#content .summary p {
+    font-size:1em;
+}
+
+#content .awards p {
+    font-size:1em;
+}
+
+#content .director p {
+    font-size:1em;
+}
+
+#content .synopsis p {
+    font-size:1em;
+}
+
+#content .awards p {
+    font-size:1em;
+}
+
+}
