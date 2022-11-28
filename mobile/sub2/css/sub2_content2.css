@@ -1,0 +1,68 @@
+  #content {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    margin: 0 auto;
+  }
+  
+  .intro > img {
+    margin-top:70px;
+    width: 100%
+  }
+  
+  .intro p {
+    padding: 10%;
+    line-height: 2.2em;
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  
+  .intro .wrap span {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-top: 18px;
+    padding-bottom: 25px;
+    display: inline-block;
+  }
+
+  .drYou .intro .wrap span {
+    margin-top: 54px;
+  }
+  
+  .wrap {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  .drYou {
+    display: none;
+  }
+  
+.more {
+  border-radius: 30px;
+  background: #bdd748;
+  font-size: 1.25em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 70px;
+  width: 180px;
+  transition: all ease-out 0.3s;
+}
+
+.more a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+.drYou .more {background: #f2c875;}
+
+#content .titleArea h2::before {
+  left: 49%;
+}

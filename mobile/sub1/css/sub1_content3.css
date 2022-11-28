@@ -1,0 +1,225 @@
+#content {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.global {
+  position: relative;
+}
+
+.global .worldWide .map {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.global .worldWide .wrap {
+  position:absolute;
+  top: 18%;
+  left: 0;
+  width: 100%;
+}
+
+.global .worldWide h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Nanum Gothic";
+}
+
+.global .worldWide .wrap p {
+ 
+  line-height: 1.8em;
+  padding: 0 10%;
+  text-align: justify;
+}
+
+.global .worldWide ul li {
+  text-align: center;
+  font-weight: 700;
+}
+
+.global .worldWide ul li i {
+  font-size: 1.5em;
+  color: #d70c19;
+  display: block;
+  margin-bottom: 10px;
+  animation: motion 2s ease-out infinite;
+}
+
+@keyframes motion {
+  0% {
+    transform: scale(.9);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(.9);
+  }
+}
+
+.global .worldWide li:nth-of-type(1) {
+  position: absolute;
+  top: 55%;
+  left: 65%;
+  transform: translate(-50%, -20%);
+}
+
+.global .worldWide li:nth-of-type(2) {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.global .worldWide li:nth-of-type(3) {
+  position: absolute;
+  top: 49%;
+  left: 40%;
+  transform: translate(-50%, -20%);
+}
+
+.global .worldWide li:nth-of-type(4) {
+  position: absolute;
+  top: 63%;
+  left: 56%;
+  transform: translate(-50%, -20%);
+}
+
+.global .worldWide li:nth-of-type(5) {
+  position: absolute;
+  top: 63%;
+  left: 42%;
+  transform: translate(-50%, -20%);
+}
+
+.tabs2 {
+  width: 100%;
+  padding: 5%; }
+
+.tabs2 .tab2_menu {
+  overflow:hidden;
+  width:80%;
+}
+
+.tabs2 li {
+  float:left;
+  font-size: 3em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+}
+
+.tabs2 li:nth-of-type(2)::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.tabs2 li:last-child {
+  margin-right: 0;
+}
+
+.tabs2:after {
+  content: '';
+  display: block;
+  clear:both;
+}
+
+.tabs2 li a {
+  display: block;
+  color: #e8e8e8;
+}
+
+#contlist2 img {
+  width: 100%;
+}
+
+#contlist2 .intro dt {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#content .list .intro {
+  position: relative;
+}
+
+.intro dd p {
+  padding: 10%;
+  line-height: 2em;
+  text-align: justify;
+}
+
+.intro span:nth-child(1) {
+  font-size: 1.5em;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.intro span:nth-of-type(2) {
+  font-weight: 700;
+}
+
+.tab2_menu li a.now {
+  color: #333;
+}
+
+.sales {
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  overflow: hidden;
+  display: flex;
+}
+
+.sales li { margin-right: 20px;}
+
+.sales li p {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.sales strong {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.sales span {
+  font-size: 1em;
+}
+
+.china {
+  position: relative;
+  display: none;
+}
+
+.vietnam {
+  position: relative;
+  display: none;
+}
+
+.russia {
+  position: relative;
+  display: none; 
+}
+
+.india {
+  position: relative;
+  display: none;
+}
+
+.vietnam .sales li p {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.vietnam .sales li {
+  color: #fff;
+}

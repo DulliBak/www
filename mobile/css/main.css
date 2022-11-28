@@ -1,0 +1,321 @@
+/* CSS Document */
+
+
+.maincontent h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+#content .maincontent span {
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.main {
+    position:relative;
+    width: 100%;
+}
+
+.main .visual {
+    position: relative;
+    width: 100%;
+    background: #333;   
+}
+
+.main .visual li span {
+    top: 45%;
+    margin: 0 auto;
+}
+
+.main .visual li:nth-of-type(2) {
+    display: none;
+}
+
+.main .visual li:nth-of-type(3) {
+    display: none;
+}
+
+.main .visual img {
+    display: block;
+    width: 100%;
+}
+
+.main .visual li span {
+    position: absolute;
+    top: 60%;
+    opacity: 0;
+    left:0;
+    line-height: 1.5em;
+    font-family: 'NanumSquareRound';
+    font-weight: 700; 
+    font-size: 2.2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    transition: all .5s;
+    transition-delay: 1s;
+}
+.main .visual li.curr span{top: 45%;opacity: 1;}
+
+.main .visual .pageNum{width:50px; position: absolute; left: 50%; margin-left:-25px; bottom: 30px; overflow: hidden }
+.main .visual .pageNum span{display:block; width:10px; height:10px; background: #fff;
+ border-radius: 5px; float: left; margin-right:5px; opacity: .7}
+
+.depth1 span {
+    font-family: 'NanumSquareRound';
+    font-weight: 700; 
+    color: #d70c19;
+}
+
+.open_menu {
+    text-indent: -9999px;
+}
+
+#content .about {
+    position: relative;
+    padding: 0 10% 10% 10%;
+    /* overflow: hidden; */
+}
+
+.about img {
+    width:100%;
+    border-radius: 20px;
+}
+
+.about .aboutbox {
+    position:relative;
+    transition: all .3s;
+}
+
+.about .aboutbox:last-child {
+    display:none;
+}
+
+.about dt {
+    display:inline-block;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.about dt::after {
+    content:'';
+    display:block;
+    width: 100%;
+    height: 2px;
+    background:#333;
+    margin-top:5px;
+}
+
+.about dl {
+    padding: 4%;
+}
+
+.about dd {
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.brands {
+    
+    background: #251a17; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #251a17 0%, #523833 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #251a17 0%,#523833 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #251a17 0%,#523833 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#251a17', endColorstr='#523833',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    padding: 0 10% 15% 10%;
+    overflow: hidden;
+    color: #fff;
+}
+
+.brands .brandsbox {
+    float: left;
+    width: 48%;
+}
+
+.brands .box1 {
+    padding-right: 4%;
+}
+
+.brands .brandsbox a {
+    color:#fff;
+}
+
+.brands .brandsbox .brandimg {
+    width:100%;
+    border-radius: 30px;
+    margin-bottom:20px;
+}
+
+.brands .brandsbox p {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+}
+
+.brands .box1 .logo {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 4px;
+}
+
+.brands .box2 .logo {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.newbest {
+    position: relative;
+    padding: 0 10% 15% 10%;
+}
+
+/* .newbest img {
+    width: 100%;
+} */
+
+/* .newbest ul {
+    display: flex;
+} */
+
+/* .newbest #slide_gallery_box {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+  
+}
+
+.newbest .slide_gallery {
+    position: relative;
+    width: 1000%;
+    display: flex;
+} */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.newbest dt {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-bottom: 15px;
+}
+
+.newbest dd {
+    text-align: center;
+    line-height: 1.8em;
+}
+
+/* .newbestbutton i {
+    color: #d70c19;
+    font-size: 3rem;
+}
+
+.newbestbutton .m1 {
+    position:absolute;
+    top:50%; 
+    left:10%;
+}
+
+.newbestbutton .m2 {
+    position:absolute;
+    top:50%;
+    right:10%;
+} */
+
+.center {
+    overflow: hidden;
+    background: #f8f8f8;
+    color:#fff;
+    padding: 10% 0;
+    box-shadow: inset -3px 0px 30px -10px rgba(0, 0, 0, 0.3);
+}
+
+.center .round1 {
+    position: relative;
+    width: 50%;
+    
+    padding-bottom: 35%;
+    margin-left: 15%;
+    border-radius: 500px;
+    background: #d70c19;
+    box-shadow: -2px 5px 20px rgba(0, 0, 0, 0.3);  
+}
+
+.center .round2 {
+    position: relative;
+    left:-5%;
+    width: 50%;
+  
+    padding-bottom: 35%;
+    margin-right: 15%;
+    border-radius: 500px;
+    color: #d70c19;  
+    background: #fff; 
+    box-shadow: -2px 5px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.center .wrap {
+    width:105%;
+    display: flex;
+}
+
+.center .round1 .wrap2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* text-align: center; */
+    transform: translate(-50%, -20%);
+}
+
+.center .round1 .wrap2 a {
+    color:#fff;
+}
+
+.center .round2 .wrap2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -20%);
+}
+
+.center .round2 .wrap2 a {
+    color:#d70c19;
+}
+
+.center h4 {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
